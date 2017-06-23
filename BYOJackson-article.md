@@ -55,7 +55,7 @@ your application can now use those cool Jackson features.
  _Do I need to do any classloading tricks? Like parentLast?_ Nope, since the
  Liberty server does not expose the Jackson API packages, your application will
  only be able to load the Jackson classes that you provide.  It also means that
- the application work regardless of the delegation policy - so you can use
+ the application works regardless of the delegation policy - so you can use
  parentLast if you really want to.
 
 _Do you have a sample application that might help me understand how this works?_
